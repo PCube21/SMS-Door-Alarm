@@ -3,11 +3,11 @@
 #include <NewPing.h>
  
 #define TRIG 9
-#define ECHO 8
+#define ECHO 10
 #define MAX 500
  
 NewPing ultra(TRIG, ECHO, MAX);
-SoftwareSerial SIM900A(10,11); //5VT,5VR
+SoftwareSerial SIM900A(7,8); //5VT,5VR
 
 int door=0;
 int led=13;
